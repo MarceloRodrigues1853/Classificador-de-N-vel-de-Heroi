@@ -4,7 +4,7 @@ let xp = 1000; // XP do herói (valor de exemplo)
 let nivel = ""; // Variável que receberá o nível do herói
 
 // Verifica e atribui o nível com base na quantidade de XP
-if (xp < 1000) {
+if (xp <= 1000) {
     nivel = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
     nivel = "Bronze";

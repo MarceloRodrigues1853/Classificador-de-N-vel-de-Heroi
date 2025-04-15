@@ -28,7 +28,7 @@ let xp = 1000; // XP do herói (valor de exemplo)
 let nivel = ""; // Será definido baseado no XP
 
 // Estrutura de decisão para classificar o herói
-if (xp < 1000) {
+if (xp <= 1000) {
     nivel = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
     nivel = "Bronze";
@@ -47,7 +47,7 @@ if (xp < 1000) {
 }
 
 // Monta a mensagem final com template literals (modo moderno)
-let mensagem = `O Herói ${nome} está no nível ${nivel}`;
+let mensagem = `O Herói ${nome} está no ${nivel}`;
 
 // Exibe a mensagem no console
 console.log(mensagem);
