@@ -47,7 +47,7 @@ if (xp < 1000) {
 }
 
 // Monta a mensagem final com template literals (modo moderno)
-let mensagem = `O Herói de nome ${nome} está no nível de ${nivel}`;
+let mensagem = `O Herói ${nome} está no nível ${nivel}`;
 
 // Exibe a mensagem no console
 console.log(mensagem);
